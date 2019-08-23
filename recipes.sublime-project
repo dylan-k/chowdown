@@ -1,0 +1,18 @@
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "."
+        }
+    ],
+
+    "settings":
+    {
+        "Jekyll":
+        {
+            "jekyll_posts_path": "/home/dylan/Documents/Home/recipes/_recipes",
+            //"drafts_path": "/Users/username/site/_drafts",
+        }
+    }
+}

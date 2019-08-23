@@ -1,0 +1,1492 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "recipes.sublime-project",
+			"settings":
+			{
+				"buffer_size": 320,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nJekyll\n------\n\n  ***************************************************************************************************\n         \n                ÛÛÛ           ÛÛÛÛÛ                 ÛÛÛÛ  ÛÛÛÛ      ÛÛÛÛÛÛÛÛ        ÛÛÛÛÛ   \n               °°°           °°ÛÛÛ                 °°ÛÛÛ °°ÛÛÛ     ÛÛÛ°°°°ÛÛÛ     ÛÛÛ°°°ÛÛÛ \n               ÛÛÛÛÛ  ÛÛÛÛÛÛ  °ÛÛÛ ÛÛÛÛÛ ÛÛÛÛÛ ÛÛÛÛ °ÛÛÛ  °ÛÛÛ    °°°    °ÛÛÛ    ÛÛÛ   °°ÛÛÛ\n              °°ÛÛÛ  ÛÛÛ°°ÛÛÛ °ÛÛÛ°°ÛÛÛ °°ÛÛÛ °ÛÛÛ  °ÛÛÛ  °ÛÛÛ       ÛÛÛÛÛÛ°    °ÛÛÛ    °ÛÛÛ\n               °ÛÛÛ °ÛÛÛÛÛÛÛ  °ÛÛÛÛÛÛ°   °ÛÛÛ °ÛÛÛ  °ÛÛÛ  °ÛÛÛ      °°°°°°ÛÛÛ   °ÛÛÛ    °ÛÛÛ\n               °ÛÛÛ °ÛÛÛ°°°   °ÛÛÛ°°ÛÛÛ  °ÛÛÛ °ÛÛÛ  °ÛÛÛ  °ÛÛÛ     ÛÛÛ   °ÛÛÛ   °°ÛÛÛ   ÛÛÛ \n               °ÛÛÛ °°ÛÛÛÛÛÛ  ÛÛÛÛ ÛÛÛÛÛ °°ÛÛÛÛÛÛÛ  ÛÛÛÛÛ ÛÛÛÛÛ   °°ÛÛÛÛÛÛÛÛ  ÛÛ °°°ÛÛÛÛÛ°  \n               °ÛÛÛ  °°°°°°  °°°° °°°°°   °°°°°ÛÛÛ °°°°° °°°°°     °°°°°°°°  °°    °°°°°°   \n           ÛÛÛ °ÛÛÛ                       ÛÛÛ °ÛÛÛ                                          \n          °°ÛÛÛÛÛÛ                       °°ÛÛÛÛÛÛ                                           \n           °°°°°°                         °°°°°°                                            \n  \n  \n                                  Thanks for installing sublime-jekyll.\n                                     We hope you like what you see.\n                              \n                              http://23maverick23.github.io/sublime-jekyll/\n                            sublime-jekyll is licensed under the MIT license.\n         \n  ***************************************************************************************************\n  \n  \n  This package should help maintaining Jekyll sites and posts easier by providing access to new post\n  and draft shortcuts, key Liquid template tags and filters, as well as common filter completions and\n  YAML front-matter templates for standardizing your posts.\n  \n  \n  After installing this package, make sure you configure your User settings file. The most important\n  piece of this is to set your `posts_path` and `drafts_path` locations. This can also be set on a\n  per-project basis later if you have multiple Jekyll sites you wish to manage.\n  \n  \n  If you have any questions or issues, please visit the homepage where you can watch a short video and\n  get quick access to RTFD documentation and Github to log issues.\n",
+			"settings":
+			{
+				"buffer_size": 2375,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "{\n    // ************************************************************************************\n    // \n    //        ÛÛÛ           ÛÛÛÛÛ                 ÛÛÛÛ  ÛÛÛÛ      ÛÛÛÛÛÛÛÛ        ÛÛÛÛÛ   \n    //       °°°           °°ÛÛÛ                 °°ÛÛÛ °°ÛÛÛ     ÛÛÛ°°°°ÛÛÛ     ÛÛÛ°°°ÛÛÛ \n    //       ÛÛÛÛÛ  ÛÛÛÛÛÛ  °ÛÛÛ ÛÛÛÛÛ ÛÛÛÛÛ ÛÛÛÛ °ÛÛÛ  °ÛÛÛ    °°°    °ÛÛÛ    ÛÛÛ   °°ÛÛÛ\n    //      °°ÛÛÛ  ÛÛÛ°°ÛÛÛ °ÛÛÛ°°ÛÛÛ °°ÛÛÛ °ÛÛÛ  °ÛÛÛ  °ÛÛÛ       ÛÛÛÛÛÛ°    °ÛÛÛ    °ÛÛÛ\n    //       °ÛÛÛ °ÛÛÛÛÛÛÛ  °ÛÛÛÛÛÛ°   °ÛÛÛ °ÛÛÛ  °ÛÛÛ  °ÛÛÛ      °°°°°°ÛÛÛ   °ÛÛÛ    °ÛÛÛ\n    //       °ÛÛÛ °ÛÛÛ°°°   °ÛÛÛ°°ÛÛÛ  °ÛÛÛ °ÛÛÛ  °ÛÛÛ  °ÛÛÛ     ÛÛÛ   °ÛÛÛ   °°ÛÛÛ   ÛÛÛ \n    //       °ÛÛÛ °°ÛÛÛÛÛÛ  ÛÛÛÛ ÛÛÛÛÛ °°ÛÛÛÛÛÛÛ  ÛÛÛÛÛ ÛÛÛÛÛ   °°ÛÛÛÛÛÛÛÛ  ÛÛ °°°ÛÛÛÛÛ°  \n    //       °ÛÛÛ  °°°°°°  °°°° °°°°°   °°°°°ÛÛÛ °°°°° °°°°°     °°°°°°°°  °°    °°°°°°   \n    //   ÛÛÛ °ÛÛÛ                       ÛÛÛ °ÛÛÛ                                          \n    //  °°ÛÛÛÛÛÛ                       °°ÛÛÛÛÛÛ                                           \n    //   °°°°°°                         °°°°°°                                            \n    // \n    // \n    //              Be sure to configure these settings so that new posts\n    //               and new drafts are created in the correct directory.\n    //\n    // ************************************************************************************\n\n    // This should point to your \"_posts\" directory.\n    // NOTE: This should be an absolute path. Also, the path should\n    // match your system convention. For example, Windows machines should\n    // have a path similar to \"C:\\\\Users\\\\username\\\\site\\\\_posts\".\n    // *nix systems should have a path similar to \"/Users/username/site/_posts\".\n    \"jekyll_posts_path\": \"\",\n\n    // This should point to your \"_drafts\" directory.\n    // NOTE: This should be an absolute path. Also, the path should\n    // match your system convention. For example, Windows machines should\n    // have a path similar to \"C:\\\\Users\\\\username\\\\site\\\\_drafts\".\n    // *nix systems should have a path similar to \"/Users/username/site/_drafts\".\n    \"jekyll_drafts_path\": \"\",\n\n    // Optionally override the location of the templates directory.\n    // Make sure your override directory is named \"_templates\", especially\n    // if you plan on using the \"jekyll_auto_find_paths\" setting.\n    // NOTE: This should be an absolute path. Also, the path should\n    // match your system convention. For example, Windows machines should\n    // have a path similar to \"C:\\\\Users\\\\username\\\\site\\\\templates\".\n    // *nix systems should have a path similar to \"/Users/username/site/_templates\".\n    \"jekyll_templates_path\": \"\",\n\n    // If you have multiple Jekyll blogs, but don't use Sublime Projects,\n    // you can optionally have sublime-jekyll look for the `_posts` or `_drafts`\n    // or `uploads` folders open in your sidebar. This should have a value of \n    // true or false.\n    \"jekyll_auto_find_paths\": false,\n\n    // This should point to the default uploads directory.\n    // NOTE: This should be an absolute path. Also, the path should\n    // match your system convention. For example, Windows machines should\n    // have a path similar to \"C:\\\\Users\\\\username\\\\site\\\\uploads\".\n    // *nix systems should have a path similar to \"/Users/username/site/uploads\".\n    \"jekyll_uploads_path\": \"\",\n\n    // This string value should represent the baseurl for the uploads directory.\n    // For example, if your uploads directoy is \"uploads/\" and you have an image\n    // called \"image.png\", then the output of inserting the image in your post\n    // would be \"<uploads_baseurl>/uploads/image.png\", with <uploads_baseurl>\n    // replaced by its value.\n    // If you wish to have an absolute link and you have \"url\" defined in your jekyll\n    // config file, then you can set the value to: \"{{ site.url }}/{{ site.baseurl }}\"\n    \"jekyll_uploads_baseurl\": \"{{ site.baseurl }}\",\n\n    // This determines the file type for new drafts and posts. Can be set to one of\n    // three accepted values: \"Markdown\", \"Textile\", \"HTML\" or \"Plain text\".\n    \"jekyll_default_markup\": \"Markdown\",\n\n    // Optionally override the file extension format for Markdown files. Valid options\n    // include: markdown, mdown, mkdn, mkd, md. Do not include the dot in your string value.\n    // NOTE: We use \"markdown\" as the standard file extension for Markdown files\n    // as suggested by John Gruber, developer of Markdown, in his blog post here:\n    // http://daringfireball.net/linked/2014/01/08/markdown-extension\n    \"jekyll_markdown_extension\": \"markdown\",\n\n    // This determines if sublime-jekyll should send deleted drafts, posts and templates to\n    // the system trash/recycling bin, or immediately purge them from disk. The\n    // default value is `false` which means files are purged immediately.\n    \"jekyll_send_to_trash\": false,\n\n    // ************************************************************************************\n    // If for some reason you want to change the way either the date\n    // or the datetime string is formatted, you can override those formats\n    // here using valid Python datetime.strftime() format codes.\n    //\n    // If you need a refresher on these codes, have a look at the Python\n    // documentation found here:\n    //\n    // http://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior\n    // ************************************************************************************\n\n    // A valid Python strftime string\n    \"jekyll_date_format\": \"%Y-%m-%d\",\n\n    // A valid Python strftime string\n    \"jekyll_datetime_format\": \"%Y-%m-%d %H:%M:%S\",\n\n    // ************************************************************************************\n    // Package Debug\n    // ************************************************************************************\n    \n    // If set to true, will print Jekyll debug information to the Sublime Text console.\n    \"jekyll_debug\": false,\n\n    // If set to true, all Jekyll Utility commands will be hidden from menus and the Command Palatte.\n    \"jekyll_utility_disable\": false\n}",
+			"file": "/home/dylan/.config/sublime-text-3/Packages/Jekyll/Jekyll.sublime-settings",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 6084,
+				"line_ending": "Unix",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "/home/dylan/.config/sublime-text-3/Packages/User/Jekyll.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 6081,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\ntitle: test3\nlayout: post\n---\n",
+			"file": "_recipes/2019-08-22-test3.markdown",
+			"file_size": 34,
+			"file_write_time": 132110058879093661,
+			"settings":
+			{
+				"buffer_size": 34,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\ntitle: text2\nlayout: post\n---\n",
+			"file": "_recipes/2019-08-22-text2.markdown",
+			"file_size": 34,
+			"file_write_time": 132110056314571692,
+			"settings":
+			{
+				"buffer_size": 34,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nlayout: recipe\ntitle:  \"Belgian Waffles\"\nimage: belgian-waffle.jpg\nimagecredit:\ndateAdded: 20180702\n\nauthorName: Marie C\nauthorURL: http://www.geniuskitchen.com/user/24386\nsourceName: Genius Kitchen\nsourceURL: http://www.geniuskitchen.com/recipe/the-best-belgian-waffles-63071\ntags: Breakfast\nyield: 6\nprepTime: 15\ncookTime: 25\n\ningredients:\n- 2 cups flour\n- 4 teaspoons baking powder\n- 1⁄2 teaspoon salt\n- 1⁄4 cup sugar\n- 2 eggs\n- 1⁄2 cup vegetable oil\n- 2 cups milk\n- 1 teaspoon vanilla\n\n\ndirections:\n- Oil the waffle maker \n- Sift the dry ingredients together in a large bowl\n- In separate bowl, separate egg whites and beat until stiff peaks form\n- In a separate bowl, mix together the egg yolks, milk, oil , and vanilla, stir slightly\n- Add to dry ingredients and mix well\n- Fold in egg whites\n- Cook in waffle iron on medium-high heat for around 5-10 minutes\n\n---\n\nThese came out pretty good. Depending on how well your waffle iron nonstick coating works, you may not need to oil the iron.\n",
+			"file": "_recipes/belgian-waffles.md",
+			"file_size": 1006,
+			"file_write_time": 132110023702662597,
+			"settings":
+			{
+				"buffer_size": 1000,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/recipe.html",
+			"settings":
+			{
+				"buffer_size": 5251,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/page.html",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 204,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/head.html",
+			"settings":
+			{
+				"buffer_size": 2129,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"new",
+				"Jekyll: New post"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"instal ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"syn",
+				"Sync Settings: Download"
+			],
+			[
+				"jeky",
+				"Jekyll: New post"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"date",
+				"InsertDate: Default"
+			],
+			[
+				"settings sy",
+				"Sync Settings: Download"
+			],
+			[
+				"insert date",
+				"InsertDate: Open README"
+			],
+			[
+				"delete",
+				"ANF: Delete Current File"
+			],
+			[
+				"dele",
+				"ANF: Delete File"
+			],
+			[
+				"open ur",
+				"Tasks: Open URL"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"jekyll",
+				"Jekyll: New post"
+			],
+			[
+				"dist",
+				"View: Toggle Distraction Free Mode"
+			],
+			[
+				"linter t",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"dis",
+				"View: Toggle Distraction Free Mode"
+			],
+			[
+				"new j",
+				"Jekyll: New post"
+			],
+			[
+				"linter to",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show Line Errors"
+			],
+			[
+				"toggle lin",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"cal",
+				"Calculate"
+			],
+			[
+				"ca",
+				"Calculate"
+			],
+			[
+				"calc",
+				"Calculate"
+			],
+			[
+				"table",
+				"AlignTab: Table Mode"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"scene",
+				"Fountainhead: Show Scene List"
+			],
+			[
+				"chara",
+				"Fountainhead: Show Character List"
+			],
+			[
+				"foun",
+				"Set Syntax: Fountainhead"
+			],
+			[
+				"gfm",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"relo",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"copy pa",
+				"File: Copy Path"
+			],
+			[
+				"copy path",
+				"File: Copy Path"
+			],
+			[
+				"remove d",
+				"Remove Duplicate Lines"
+			],
+			[
+				"sort",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"reload",
+				"SublimeLinter: Reload SublimeLinter and its Plugins"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"remove du",
+				"Remove Duplicate Lines"
+			],
+			[
+				"uploa",
+				"Sync Settings: Upload"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"update g",
+				"Gist: Update File"
+			],
+			[
+				"gist",
+				"Gist: Update File"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"lint ",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lint",
+				"MarkdownEditing: Markdown Lint"
+			],
+			[
+				"conso",
+				"View: Show Console"
+			],
+			[
+				"sublime linter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"fountainh",
+				"Fountainhead: Remove all Character (CONT'D)s"
+			],
+			[
+				"fountainhead",
+				"Set Syntax: Fountainhead"
+			],
+			[
+				"fountain",
+				"Set Syntax: Fountain"
+			],
+			[
+				"show char",
+				"Fountainhead: Show Character List"
+			],
+			[
+				"update char",
+				"Fountainhead: Update Character List"
+			],
+			[
+				"characters",
+				"Fountainhead: Show Character List"
+			],
+			[
+				"uplo",
+				"Sync Settings: Upload"
+			],
+			[
+				"fou",
+				"Set Syntax: Fountainhead"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"sync do",
+				"Sync Settings: Download"
+			],
+			[
+				"line",
+				"View: Toggle Line Numbers"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"down",
+				"Sync Settings: Download"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"line n",
+				"View: Toggle Line Numbers"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"upl",
+				"Sync Settings: Upload"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"prefer",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"fold",
+				"Code Folding: Fold"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pref",
+				"Preferences: Settings"
+			],
+			[
+				"twe",
+				"Set Syntax: Twee"
+			],
+			[
+				"sync",
+				"Sync Settings: Upload"
+			],
+			[
+				"s",
+				"ANF: Copy Current File"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"jek",
+				"Jekyll: New post"
+			],
+			[
+				"tw",
+				"Set Syntax: Twee"
+			],
+			[
+				"goto",
+				"Goto: Anything…"
+			],
+			[
+				"edit pro",
+				"Project Manager: Edit Project"
+			],
+			[
+				"pro",
+				"Project Manager: Edit Project"
+			],
+			[
+				"proje",
+				"Project Manager: Remove Project"
+			],
+			[
+				"wiki",
+				"Set Syntax: Mediawiki NG"
+			],
+			[
+				"format",
+				"Format CSS: Expanded"
+			],
+			[
+				"twee",
+				"Set Syntax: Twee"
+			],
+			[
+				"unfold a",
+				"MarkdownEditing: Unfold All Sections"
+			],
+			[
+				"fold all",
+				"MarkdownEditing: Fold All Sections"
+			],
+			[
+				"colla",
+				"Code Folding: Unfold All"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"comp",
+				"Format CSS: Compact"
+			],
+			[
+				"compress",
+				"Format CSS: Compressed"
+			],
+			[
+				"foldi",
+				"Code Folding: Fold"
+			],
+			[
+				"inline",
+				"MarkdownEditing: New Inline Link"
+			],
+			[
+				"inli",
+				"MarkdownEditing: New Inline Link"
+			],
+			[
+				"markdown",
+				"MarkdownEditing: New Inline Link"
+			],
+			[
+				"markdown link",
+				"MarkdownEditing: New Inline Link"
+			],
+			[
+				"jekyll ",
+				"Jekyll: New post"
+			],
+			[
+				"add fol",
+				"Project: Add Folder"
+			],
+			[
+				"remove f",
+				"Project: Remove all Folders from Project"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"scroll",
+				"Typewriter: Scrolling Mode (Toggle)"
+			],
+			[
+				"distr",
+				"View: Toggle Distraction Free Mode"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"renam",
+				"Rename File"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"new je",
+				"Jekyll: New post"
+			],
+			[
+				"rename f",
+				"File: Rename"
+			],
+			[
+				"delete file",
+				"ANF: Delete Current File"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"tex",
+				"Set Syntax: TeX"
+			],
+			[
+				"folder",
+				"Project: Remove all Folders from Project"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"packages",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"delete ",
+				"ANF: Delete File"
+			],
+			[
+				"hyper",
+				"Snippet: Markdown Hyperlink"
+			],
+			[
+				"hy",
+				"Snippet: Markdown Hyperlink"
+			],
+			[
+				"hyperlink",
+				"Snippet: Markdown Hyperlink"
+			],
+			[
+				"indent",
+				"Indent JSON"
+			],
+			[
+				"tab",
+				"AlignTab"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"preferences",
+				"Preferences: Settings"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 206.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+		"/home/dylan/Documents/Home/recipes",
+		"/home/dylan/Documents/Home/recipes/_includes",
+		"/home/dylan/Documents/Home/recipes/_layouts",
+		"/home/dylan/Documents/Home/recipes/_recipes"
+	],
+	"file_history":
+	[
+		"/home/dylan/Documents/Home/recipes/_recipes/Honey Glazed Carrots.docx",
+		"/home/dylan/Documents/Home/recipes/_recipes/2019-08-22-test4.markdown",
+		"/home/dylan/.config/sublime-text-3/Packages/User/Jekyll.sublime-settings",
+		"/home/dylan/Documents/Home/recipes/_recipes/2019-08-22-test.markdown",
+		"/home/dylan/.bash_aliases",
+		"/home/dylan/Documents/Home/recipes_ORIG/_recipes/chicken.txt",
+		"/home/dylan/Documents/Home/recipes/_recipes/chicken.txt",
+		"/home/dylan/Notes/home/2019-07-16-health-routines.txt",
+		"/home/dylan/Documents/Home/recipes/recipes.sublime-project",
+		"/home/dylan/Documents/Home/recipes/_recipes/beef-broccoli.txt",
+		"/home/dylan/Documents/Home/recipes/_recipes/2016-02-23-chicken-cordon-bleu.txt",
+		"/home/dylan/Documents/Home/recipes/_recipes/teriyaki-chicken.txt",
+		"/home/dylan/Notes/creative/2019-03-28-idea-for-a-chapbook.txt",
+		"/home/dylan/Desktop/download",
+		"/home/dylan/Notes/home/2019-05-01-books-in-irc.txt",
+		"/home/dylan/Downloads/SearchBot_results_for__exercises_in_style.txt/SearchBot_results_for_ exercises in style.txt",
+		"/home/dylan/Notes/home/2016-09-06-budget.txt",
+		"/home/dylan/Creative/manuscripts/00-chapbook/_docs/README.txt",
+		"/home/dylan/Creative/manuscripts/00-chapbook/presentaion-notes.txt",
+		"/home/dylan/Creative/manuscripts/00-chapbook/writing-lines-chalkboard.txt",
+		"/home/dylan/Creative/manuscripts/00-chapbook/hats.txt",
+		"/home/dylan/Sites/nocategories/README.md",
+		"/home/dylan/Sites/nocategories/_includes/style-single.css",
+		"/home/dylan/Sites/nocategories/_includes/style-home.css",
+		"/home/dylan/Sites/nocategories/_includes/archive.html",
+		"/home/dylan/Sites/nocategories/_includes/footer.html",
+		"/home/dylan/Sites/nocategories/_pages/home.md",
+		"/home/dylan/Sites/nocategories/_layouts/home.html",
+		"/home/dylan/.bashrc",
+		"/home/dylan/Journal/_posts/2019-08-14-morning-pages.txt",
+		"/home/dylan/Notes/creative/2013-01-12-spoken-word-ideas.txt",
+		"/home/dylan/Notes/home/2010-11-02-how-to-use-my-music-collection-as-a-recipe-for-a-word-show-group-of-poems-pe.txt",
+		"/home/dylan/Notes/home/2012-08-14-notes-from-elfwire.txt",
+		"/home/dylan/Notes/home/2013-01-12-notes-for-new-spoken-word-album.txt",
+		"/home/dylan/Notes/_posts/2019-07-30-a-new-performance.txt",
+		"/home/dylan/Notes/home/2016-02-15-steps-into-performance.txt",
+		"/home/dylan/Notes/freelance/2019-07-30-smellmap-notes.txt",
+		"/home/dylan/Creative/scripts/whats-the-catch/whats-the-catch.fountain",
+		"/home/dylan/Creative/scripts/.gitignore",
+		"/home/dylan/Creative/scripts/[conflicted].gitignore",
+		"/home/dylan/Creative/scripts/ [conflicted].gitignore",
+		"/home/dylan/Creative/performance/2013-08-07_projection-series/README.txt",
+		"/home/dylan/Dropbox/journal/_posts/2019-07-09-checking-in.txt",
+		"/home/dylan/Dropbox/journal/_posts/2019-07-09-morning-pages.txt",
+		"/home/dylan/Dropbox/notes/home/2016-09-06-budget.txt",
+		"/home/dylan/Creative/scripts/top-real-estate/top-real-estate.fountain",
+		"/home/dylan/Creative/performance/2019-06-22-short-plays/top-real-estate.fountain",
+		"/home/dylan/Creative/scripts/thing-about-restaraunts/thing-about-restaraunts.fountain",
+		"/home/dylan/Creative/performance/2019-06-22-short-plays/thing-about-restaraunts.fountain",
+		"/home/dylan/Creative/performance/2019-06-22-short-plays/street-preacher-mono.fountain",
+		"/home/dylan/Creative/scripts/street-preacher/street-preacher-mono.fountain",
+		"/home/dylan/Creative/performance/2019-06-22-short-plays/space-age-bachelor-pad.fountain",
+		"/home/dylan/Creative/scripts/space-age-bachelor-pad/space-age-bachelor-pad.fountain",
+		"/home/dylan/Creative/performance/2019-06-22-short-plays/morning-talk-show.fountain",
+		"/home/dylan/Creative/performance/2019-06-22-short-plays/thumbbook.fountain",
+		"/home/dylan/Creative/scripts/thumbbook/thumbbook.fountain",
+		"/home/dylan/Creative/scripts/morning-talk-show/morning-talk-show.fountain",
+		"/home/dylan/Creative/performance/2019-06-22-short-plays/party-planet.fountain",
+		"/home/dylan/Creative/scripts/party-planet/party-planet.fountain",
+		"/home/dylan/Creative/performance/2019-06-22-short-plays/README.txt",
+		"/home/dylan/Creative/scripts-local/README.txt",
+		"/home/dylan/Creative/scripts/top-real-estate/real-estate-top.fountain",
+		"/home/dylan/Creative/scripts/collected-scripts/README.txt",
+		"/home/dylan/Documents/Home/.x/dating-profile-questions.md",
+		"/home/dylan/.config/sublime-text-3/Packages/Fountainhead/Fountainhead.sublime-settings",
+		"/home/dylan/Downloads/vale_1.4.2_Linux_64-bit/README.md",
+		"/home/dylan/.config/vale/styles/hedgeclipper/Hedges.yml",
+		"/home/dylan/Desktop/test.txt",
+		"/home/dylan/Desktop/test3.txt",
+		"/home/dylan/Downloads/vale-styles-fc5f4db233ced6af08a4f07756e99158c63f4aa7/TheEconomist/HorribleWords.yml",
+		"/home/dylan/Downloads/vale-styles-fc5f4db233ced6af08a4f07756e99158c63f4aa7/OpenStack/ListStart.yml",
+		"/home/dylan/Downloads/vale-styles-fc5f4db233ced6af08a4f07756e99158c63f4aa7/OpenStack/Units.yml",
+		"/home/dylan/Downloads/vale-styles-fc5f4db233ced6af08a4f07756e99158c63f4aa7/OpenStack/This.yml",
+		"/home/dylan/Downloads/vale-styles-fc5f4db233ced6af08a4f07756e99158c63f4aa7/Middlebury/Hyphens.yml",
+		"/home/dylan/Downloads/vale-styles-fc5f4db233ced6af08a4f07756e99158c63f4aa7/demo/Reading.yml",
+		"/home/dylan/Downloads/vale-styles-fc5f4db233ced6af08a4f07756e99158c63f4aa7/demo/HeadingStartsWithCapital.yml",
+		"/home/dylan/Downloads/vale-styles-fc5f4db233ced6af08a4f07756e99158c63f4aa7/.github/pull_request_template.md",
+		"/home/dylan/Downloads/vale-styles-fc5f4db233ced6af08a4f07756e99158c63f4aa7/MailChimp/README.md",
+		"/home/dylan/Downloads/vale-styles-fc5f4db233ced6af08a4f07756e99158c63f4aa7/Middlebury/README.md",
+		"/home/dylan/Downloads/vale-styles-fc5f4db233ced6af08a4f07756e99158c63f4aa7/OpenStack/HeadingCase.yml",
+		"/tmp/.vale.ini",
+		"/home/dylan/Creative/performance/2019-06-22-short-plays/.vale",
+		"/home/dylan/.vale.ini",
+		"/home/dylan/.config/sublime-text-3/Packages/Vale/Vale.sublime-settings",
+		"/home/dylan/.config/sublime-text-3/Packages/User/Vale.sublime-settings",
+		"/home/dylan/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/tmp/fz3temp-2/.htaccess",
+		"/tmp/fz3temp-2/wp-config.php",
+		"/tmp/fz3temp-2/debug.log",
+		"/home/dylan/Creative/scripts/_docs/starterfile.fountain",
+		"/home/dylan/Dropbox/notes/home/2011-03-18-measurements-for-clothing-sizes.txt",
+		"/home/dylan/Projects/elevator_v2/src/story.twee",
+		"/home/dylan/Projects/elevator_v2/src/StoryInterface.twee",
+		"/home/dylan/Projects/elevator_v2/src/_frontmatter.twee",
+		"/home/dylan/Projects/elevator_v2/README.txt",
+		"/home/dylan/Documents/Twine/Formats/sugarcube-2/format.js",
+		"/home/dylan/Projects/elevator_v2/_old/_v1/src/styles/style.css",
+		"/home/dylan/Projects/elevator_v2/_old/_v1/project/styles/user.min.css",
+		"/home/dylan/Projects/elevator_v2/src/_story-settings.twee",
+		"/home/dylan/Projects/elevator_v2/src/scripts/script.js",
+		"/home/dylan/Projects/elevator_v2/src/styles/style.css",
+		"/home/dylan/Projects/elevator_v2/src/_example-sidenote.twee",
+		"/home/dylan/Projects/elevator_v2/src/_example-fullwidth.twee",
+		"/home/dylan/Projects/elevator_v2/_old/_v1/project/twee/story.twee",
+		"/home/dylan/Projects/elevator_v2/src/StoryMenu.twee",
+		"/home/dylan/Projects/elevator_v2/_old/_v0/elevator_v0.tw2",
+		"/home/dylan/Projects/elevator_v2/_old/_v0/elevator.tw2",
+		"/home/dylan/Creative/scripts/_docs/WIKI.txt",
+		"/home/dylan/Templates/README.txt",
+		"/home/dylan/Creative/scripts/thumbbook/ThumbBook.fountain",
+		"/home/dylan/Creative/scripts/outside-talker/see-it-to-believe-it-or-not.txt",
+		"/home/dylan/Creative/scripts/outside-talker/the-electric-beauty.txt",
+		"/home/dylan/Creative/scripts/outside-talker/the-electric-beauty.fountain",
+		"/home/dylan/Sites/nextcloud/README.txt",
+		"/home/dylan/Creative/scripts/_docs/syntax-example.fountain",
+		"/home/dylan/Creative/scripts/WIKI.txt",
+		"/home/dylan/Creative/scripts/collected-scripts/raw/Draft/2 Characters -7-.fountain",
+		"/home/dylan/Creative/scripts/collected-scripts/raw/Draft/5 morning-talk-show -28-.fountain",
+		"/home/dylan/Creative/scripts/collected-scripts/raw/Draft/4 Act -9-.fountain",
+		"/home/dylan/Creative/scripts/collected-scripts/raw/Draft/1 Title Page -3-.fountain",
+		"/home/dylan/Creative/scripts/morning-talk-show/README.txt",
+		"/home/dylan/Projects/elevator_v2/_old/_v1/src/scripts/script.js",
+		"/home/dylan/Desktop/04-20-elevator.html",
+		"/home/dylan/Projects/elevator_v2/src/styles/style.cssOFF",
+		"/home/dylan/Projects/elevator_v2/_etc/tufte-dark-template.html",
+		"/home/dylan/Projects/elevator_v2/src/_story-interface.twee",
+		"/home/dylan/Projects/elevator_v2/_old/_v1/_docs/README.txt",
+		"/home/dylan/Projects/elevator_v2/src/compiler-options.twee"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 176.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" irc ",
+			"irc",
+			"nelnet"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"default_dir": "/home/dylan/Documents/Home/recipes",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "recipes.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								182
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 8,
+								"count": 7,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2375,
+								2375
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 2375,
+								"count": 193,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"auto_indent": false,
+							"default_dir": "/home/dylan/Documents/Home/recipes",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/dylan/.config/sublime-text-3/Packages/Jekyll/Jekyll.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6084,
+								6084
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 1,
+								"count": 582,
+								"modified": false,
+								"selection": true,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"mini_diff": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 762.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/dylan/.config/sublime-text-3/Packages/User/Jekyll.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6081,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4564,
+								4564
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 27,
+								"count": 583,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1031.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_recipes/2019-08-22-test3.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 1,
+								"count": 4,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_recipes/2019-08-22-text2.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 34,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 1,
+								"count": 4,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_recipes/belgian-waffles.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 129,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "_layouts/recipe.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 0,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "_layouts/page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 10,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 9,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "_includes/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 56,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "_includes/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 65,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 82.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 162.0
+	},
+	"pinned_build_system": "",
+	"project": "recipes.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 866.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 386.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
