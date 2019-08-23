@@ -15,20 +15,23 @@ prepTime: 15
 cookTime: 15
 
 ingredients:
-- 1 cup rice
+- 2 cups rice
 - 1 tablespoon olive oil
+- 1 medium onion
 - 6 strips of bacon, sliced into 1/2 inch pieces
-- 1/2 pound smoked pork or beef sausage, sliced into 1/4 inch rounds
-- 1 15 oz unsalted black beans, do not drain
-- 1 cup chicken broth
-- 2 teaspoons garlic poder
-- 3 bay leaves
-- 1 teaspoon dried oregano
+- 1/2 pound smoked pork or beef sausage, sliced into small rounds
+- 2 15 oz cans of unsalted black beans, do not drain
+- 2 cups chicken broth
+- 4 teaspoons garlic poder
+- 5-6 bay leaves
+- 2 teaspoon dried oregano
 - salt to taste 
 
 directions:
-- Prepare the rice.
+- Prepare and cook the rice
+- Dice the onion
 - Heat a large pot over medium heat. Add olive oil and heat.
+- Saute the onions until tender, 5-7 minutes or edges start to brown
 - Add the bacon and sausage and sauté until brown and crispy, about 4 minutes.
 - Add the can of black beans and cook for 1 more minute.
 - Add the chicken broth, garlic powder, bay leaves, oregano, and salt. Bring to a boil and then reduce heat to low. 
@@ -37,4 +40,4 @@ directions:
 
 ---
 
-Hearkens back to the mission.
+Hearkens back to the mission. Note that I've modified this recipe a bit for personal preference. At the end, thicken with a cornstarch slurry as needed. Optionally use creole seasoning or similar instead of salt to add some further spice. Goes great with some sriracha or other hot sauce too.

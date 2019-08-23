@@ -1,3 +1,6 @@
 default:
 	jekyll build
-	rsync -rtvuh _site/* dreamhost:recipes.lane.sh/
+	cd _site; \
+	git add -A;\
+	git commit -am 'Rebuilt site from subdir';\
+	git push;
